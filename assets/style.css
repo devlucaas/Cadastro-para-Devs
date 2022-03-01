@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+label {
+    display: block;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background: url(img/jason-miller-jPs0ZgfLRww-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+fieldset{
+    
+    background: rgba( 255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 2px 0px 15px #7c7c7c;
+}
+.campo{
+    
+    padding: 10px;
+}
+#subtitulo{
+    margin-bottom: 20px;
+}
+
+#botao{
+    margin: 10px 0 20px 170px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: rgba( 255, 255, 255, 0.1);
+    transition: background 0.4s;
+}
+#botao:hover{
+    background-color: white;
+    cursor: pointer;
+}
+#sexo{
+    display: flex;
+    justify-content:  space-evenly;
+}
+textarea{
+    width: 270px;
+    height: 100px;
+    margin-top: 20px;
+    resize: none;
+}
+#checkbox{
+    padding: 10px;
+    font-size: 12px;
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Cadastro de Devs</h1>
+        <p id="subtitulo">Complete suas informações</p>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label>
+                    Nome:
+                    <input type="text" placeholder="  Seu nome...">
+                </label>
+            </div>
+            <div class="campo">
+                <label>CPF:
+                    <input type="text" placeholder="  000.000.000-00">
+                </label>
+            </div>
+            <div class="campo">
+                <label>Endereço:
+                    <input type="text" placeholder="  Endereço">
+                </label>
+            </div>
+            <div id="sexo">
+                <label>Masculino
+                    <input type="radio" name = "sexo">
+                </label>
+                <label>Feminino
+                    <input type="radio" name = "sexo">
+                </label>
+            </div>
+            </div>  
+            <div class="campo">
+                <select name="Stack">
+                    <option selected disabled>Selecione</option>
+                    <option>Full Stack</option>
+                    <option>Front-End</option>
+                    <option>Back-end</option>
+                </select>
+            </div>
+            <div class="campo">
+                <label>Conte um pouco sobre você:</label>  
+                <textarea row="6">
+                    
+                </textarea>
+            </div>
+            <div id="checkbox">
+                <label>
+                    <input type="checkbox">
+                    Declaro que li e aceito os termos de uso.
+                </label>
+            </div>
+            <button id="botao">Fazer Cadastro</button>
+        </fieldset>
+        
+    </form>
+</body>
+</html>
